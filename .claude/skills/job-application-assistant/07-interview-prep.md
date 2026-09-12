@@ -14,28 +14,37 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- These are populated by /setup from your actual experience. STAR candidates below were
+extracted from your CV/LinkedIn - Action and Result are backed by those documents, but
+Situation and Task need your own detail filled in before relying on them in an interview. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. GitOps-based Kubernetes platform rollout (Platform architecture, business impact)
+**S:** [CONTEXT - what prompted the platform rewrite/rollout? what was the state before?]
+**T:** [YOUR SPECIFIC RESPONSIBILITY - were you sole owner, or leading a team?]
+**A:** Led the design and rollout of a GitOps-based Kubernetes platform using ArgoCD, across AWS/OpenShift and hybrid on-prem/cloud environments.
+**R:** The platform helped Amdocs win a new client and added \$1M in revenue; recognized with the "Transform Collaborate Partner" award.
+**Use for:** "Tell me about a project with real business impact", "Describe a time you led a platform/architecture decision"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. CI/CD pipeline overhaul (Automation, measurable efficiency gains)
+**S:** [CONTEXT - what was the release process like before, why did it need to change?]
+**T:** [YOUR SPECIFIC RESPONSIBILITY in the redesign]
+**A:** Built CI/CD pipelines on AWS CodePipeline and Jenkins, and separately architected a CI/CD pipeline on Kubernetes/OpenShift.
+**R:** Cut release cycle time by 75% and deployment errors by 40% (current role); cut build times by 60% in the prior role.
+**Use for:** "Tell me about a time you improved a process", "Describe your CI/CD experience"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Security scanning rollout and team training (Mentoring, security)
+**S:** [CONTEXT - what was the security gap or driver for this initiative?]
+**T:** [YOUR SPECIFIC RESPONSIBILITY - did you own the tool selection, the rollout, or both?]
+**A:** Introduced security scanning (SonarQube, Twistlock/Prisma Cloud) into the CI/CD pipeline and trained 10+ developers on the new process.
+**R:** Reduced vulnerabilities by 35%.
+**Use for:** "Tell me about a time you drove a process change", "Describe how you've mentored others", "How do you approach security in CI/CD?"
+
+### 4. Large-scale containerization migration (Infrastructure modernization)
+**S:** [CONTEXT - what was the legacy environment, why containerize now?]
+**T:** [YOUR SPECIFIC RESPONSIBILITY in the migration]
+**A:** Led a containerization push with Docker and Kubernetes, moving legacy applications into containers.
+**R:** Moved 90% of legacy applications into containers, boosting scalability by 50% and cutting infrastructure footprint by 35%.
+**Use for:** "Tell me about a migration/modernization project", "Describe a time you had to convince others to adopt a new approach"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

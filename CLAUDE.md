@@ -1,11 +1,11 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Prasham Tated
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
 This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
-1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
+1. **Job fit evaluation** - Assess job postings against Prasham's profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
 4. **Interview preparation** - Prepare answers, questions, and talking points for interviews
@@ -16,76 +16,95 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Prasham Tated
+- **Location:** Limassol, Cyprus (open to relocation - see Target Sectors below)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | Hindi | Native or Bilingual |
+  | English | Full Professional |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed at Amdocs (Limassol, Cyprus), actively looking to move
+- **LinkedIn headline:** "DevOps Architect | Kubernetes & GitOps Expert | AWS / Azure | CKA & CKAD Certified"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor of Engineering in Information Technology** (2007-2011) - Amravati University (SGBAU), Maharashtra, India
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Technical Expert (DevOps Expert)** (Jun 2024 - Present) - **Amdocs** (Amdocs Research and Development Team, Limassol, Cyprus)
+  - Built CI/CD pipelines on AWS CodePipeline and Jenkins, cutting release cycle time by 75% and deployment errors by 40%
+  - Unified infrastructure management with Terraform across on-prem and AWS, improving provisioning speed 4x
+  - Led design/rollout of a GitOps-based Kubernetes platform that helped Amdocs win a new client and added $1M in revenue
+- **DevOps Specialist** (Feb 2021 - Jun 2024) - **Amdocs** (Amdocs Research and Development Team, Limassol, Cyprus)
+  - Architected a CI/CD pipeline on Kubernetes and OpenShift that cut build times by 60%
+  - Led cloud migration initiatives that cut operational overhead by 40% and improved scalability
+  - Integrated automated testing into CI/CD pipelines, fixing the top three causes of integration failures
+- **DevOps Engineer** (May 2018 - Feb 2021) - **Amdocs** (Amdocs R&D Team, Limassol, Cyprus)
+  - Automated infrastructure provisioning with Bash, Terraform, and Ansible, cutting manual tasks by 50%
+  - Managed containerized applications on Docker, Kubernetes, and Helm, cutting deployment time by 40%
+  - Designed secure AWS networking (VPNs, VPC peering, load balancers), improving security posture by 30%
+- **Technology Integration Engineer** (May 2013 - May 2018) - **Amdocs India** (Pune Area, India)
+  - Automated daily infrastructure activities with custom shell scripts
+  - Managed Weblogic application server configuration across multiple environments
+  - Provided production support leveraging UNIX/Linux expertise
+- **Mobile Application Developer** (Mar 2012 - Apr 2013) - **Nanostuffs Tech. Pvt Ltd** (Pune Area, India)
+  - Designed and developed 5+ Android applications, increasing user engagement by 30%
+  - Provided end-to-end deployment and maintenance support with zero downtime
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Kubernetes, OpenShift, Docker, Helm, ArgoCD, Argo Workflows, GitOps, Terraform, Ansible, Jenkins, AWS CodePipeline, AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM)
+- **Secondary:** Azure, Azure AI Foundry, security scanning (SonarQube, Twistlock/Prisma Cloud), Kafka, Elasticsearch, Couchbase, Prometheus, Grafana, networking (VPC peering, load balancers, VPN gateways, Network Load Balancing, DNS)
+- **Domain:** DevOps/Platform Engineering, CI/CD pipeline design, cloud migration, infrastructure automation
+- **Software:** Java, Python, Bash, Git
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Certified Kubernetes Administrator (CKA)**
+- **Certified Kubernetes Application Developer (CKAD)**
+- **AWS Cloud Practitioner Essentials (Second Edition)**
+- **Certified Professional - DevOps Foundation (CP-DOF)**
+- **Microsoft Applied Skills: Create an AI agent**
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- "Transform Collaborate Partner" award - led a Kubernetes-native, GitOps-based platform project that helped Amdocs win a new client and add $1M in revenue
+- Promoted three times in 11 years at Amdocs (DevOps Engineer -> Specialist -> Software Technical Expert)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Self-assessment - see 02-behavioral-profile.md for full detail -->
+- **Builder/Driver** - Energized by greenfield platform builds, complex production troubleshooting, and mentoring/process change
+- **Deliberate decision-maker** - Data-driven, consults before committing rather than moving fast and iterating
+- **Strengths:** Platform architecture and ownership, deep technical troubleshooting, upskilling teams
+- **Growth areas:** Not yet captured - see 02-behavioral-profile.md
+- **Thrives in:** Platform-ownership roles with genuine architecture scope, low bureaucracy, deliberate/data-driven culture
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Designing and building new Kubernetes-native/GitOps platforms from the ground up
+- Solving complex production infrastructure problems
+- Mentoring engineers and driving process improvement
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- DevOps/Platform Engineering roles in Cyprus, India (Pune, Hyderabad), and UAE (Dubai, Abu Dhabi)
+- Open to relocation; UAE roles require employer-sponsored work permit, India roles have no permit barrier (Indian national)
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None specified.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

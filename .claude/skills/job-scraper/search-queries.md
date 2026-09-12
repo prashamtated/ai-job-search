@@ -4,7 +4,9 @@
 
 ## Installed portal CLIs (primary for `/scrape`)
 
-`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Installed CLIs: `linkedin-search` (global), `freehire-search` (global aggregator), and `indeed-search` (India + UAE, via `in.indeed.com`/`ae.indeed.com` — its `robots.txt` explicitly allows the `Claude-User` agent, verified 2026-09-12). Any skill you add with `/add-portal` is included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+
+**Naukri.com investigated and not installed:** its `robots.txt` explicitly disallows `Claude-User` from all job-search paths, and its pages are client-rendered with no job data in a plain fetch (would require reverse-engineering an unverified API). Use the `site:naukri.com` WebSearch fallback below instead. Bayt.com and GulfTalent were also investigated and are behind bot-detection (Cloudflare/Akamai) that blocks even a `robots.txt` fetch from this environment.
 
 The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
 
@@ -12,11 +14,14 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Cyprus / India / UAE); also covered by `linkedin-search` CLI
+- **Indeed (India / UAE)** - `in.indeed.com` / `ae.indeed.com`; covered by `indeed-search` CLI (`--country in` or `--country ae`)
+- **freehire.me** - tech-focused job aggregator, ~50 ATS platforms across many countries; covered by `freehire-search` CLI
+
+Not covered by a CLI (use the `site:` WebSearch fallback below):
+- **naukri.com** - India's largest portal; explicitly disallows automated access by this agent in its `robots.txt`
+- **bayt.com**, **gulftalent.com** - UAE/Gulf boards behind bot-detection that blocks automated fetches entirely
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -27,34 +32,38 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: DevOps / Platform Engineering (senior/lead)
 
 These match your strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:linkedin.com/jobs "DevOps Architect" (Cyprus OR Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "Platform Engineer" Kubernetes (Cyprus OR Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "Senior DevOps Engineer" GitOps (Cyprus OR Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "DevOps Lead" Kubernetes (Cyprus OR Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:naukri.com "DevOps Architect" (Pune OR Hyderabad)
+site:naukri.com "Platform Engineer" Kubernetes (Pune OR Hyderabad)
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Cloud/DevOps Architecture and SRE
 
 These match your domain expertise.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Cloud Architect" AWS (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "Site Reliability Engineer" Kubernetes (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "SRE" GitOps ArgoCD (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:naukri.com "Cloud Architect" AWS (Pune OR Hyderabad)
+site:bayt.com "Site Reliability Engineer" OR "Cloud Architect" (Dubai OR "Abu Dhabi")
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 3: Engineering Manager / Team Lead (DevOps)
 
-Adjacent roles you could pivot into.
+Adjacent roles you could pivot into, leveraging your mentoring and process-improvement track record.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:linkedin.com/jobs "DevOps Manager" OR "Engineering Manager DevOps" (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "Team Lead" DevOps Kubernetes (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
 ```
 
 ### Priority 4: Broader Technical / Consulting
@@ -62,19 +71,18 @@ site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
 Wider net for general technical roles.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Cloud Consultant" AWS (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "Infrastructure Engineer" Terraform (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
+site:linkedin.com/jobs "Technical Consultant" DevOps (Dubai OR "Abu Dhabi" OR Pune OR Hyderabad)
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Open to relocation - not filtering by commute distance from a single home base. Define acceptable areas:
+- **Ideal:** Limassol, Cyprus (current base); Dubai, UAE; Abu Dhabi, UAE; Pune, India; Hyderabad, India
+- **Acceptable:** Other UAE emirates (Sharjah, Ajman); other major India tech hubs (Bangalore, Mumbai, Gurgaon)
+- **Borderline:** Other Gulf hubs (Doha, Riyadh) - flag for discussion, not auto-included
+- **Too far:** Locations outside Cyprus/India/UAE/wider Gulf, unless fully remote
 
 ## Language Filter
 

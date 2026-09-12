@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Kubernetes, OpenShift, Docker, Helm, ArgoCD, GitOps, Terraform, Ansible, Jenkins, AWS CodePipeline, AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM), CI/CD pipeline design, infrastructure automation, cloud migration
+**Moderate match areas:** Azure, Azure AI Foundry, security scanning (SonarQube, Twistlock/Prisma Cloud), Kafka, Elasticsearch, Couchbase, Prometheus, Grafana, networking (VPC, load balancers, VPNs), Python, Bash, Java
+**Weak match areas:** People-management / formal engineering-management experience, software architecture beyond infrastructure/platform scope, non-DevOps software development
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** DevOps Engineer/Specialist/Expert, Platform Engineer, Site Reliability Engineer (SRE), Cloud/DevOps Architect
+**Moderate:** Engineering Manager / Team Lead (DevOps) - strong technical depth and mentoring track record, but no formal people-management title yet
+**Entry-level:** Software Architect (broader, non-infrastructure scope) - has architected infrastructure/platforms but not general application software architecture
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,19 +107,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Move into a senior DevOps/Platform Engineering, DevOps Architect, or Cloud Architect role with more design ownership
+- Grow toward Engineering Manager / Team Lead (DevOps) or SRE leadership over time
+- Relocate from Cyprus to a target hub: Pune, Hyderabad, Dubai, or Abu Dhabi
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: greenfield/new platform builds, solving complex production problems, mentoring and driving process/culture change
+- Tasks that drain: pure maintenance/firefighting with no improvement angle, excessive bureaucracy or slow, committee-driven decision-making
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Target salary baseline - above 30,000 AED/month for UAE-based roles, above 55 Lakh INR/year for India-based roles
+- **Flexibility**: Open to relocation; no other stated commute/schedule constraints
+- **Professional development**: Prioritizes roles with genuine architecture/ownership scope and mentoring opportunities over pure execution roles
 
 ### 6. Salary Benchmark (Optional)
 

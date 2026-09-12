@@ -52,7 +52,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Prasham Tated - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -62,13 +62,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Prasham}{Tated}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Omonoias 63, Limassol, Cyprus 3052}{}{}
+\phone[mobile]{+357 95910171}
+\email{prashamtated@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prashamtated}{LinkedIn}, \href{https://www.prasham.com}{Portfolio}}
 
 \begin{document}
 \makecvtitle
@@ -130,11 +130,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For DevOps / Platform Engineering (senior/lead) roles:**
+> DevOps/Platform Engineering expert with 14+ years building and running cloud infrastructure, the last several years focused on Kubernetes-native platforms and GitOps. Currently a Software Technical Expert at Amdocs' R&D organization, architecting CI/CD and container platforms across AWS, OpenShift, and hybrid on-prem/cloud environments. Led the design and rollout of a GitOps-based Kubernetes platform that helped Amdocs win a new client and added \$1M in revenue. CKA and CKAD certified, with hands-on depth in Terraform, ArgoCD, security scanning, and large-scale CI/CD pipeline design.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For DevOps Architect / Cloud Architect roles:**
+> Cloud and DevOps architect with 14+ years designing and running production infrastructure across AWS, Azure, and hybrid on-prem environments. Specializes in Kubernetes-native, GitOps-based platform architecture: led the design of a platform rollout that directly won Amdocs a new enterprise client and \$1M in added revenue. Combines deep hands-on implementation skill (Terraform, ArgoCD, CI/CD pipeline design) with a track record of translating architecture decisions into measurable business outcomes.
+
+**For Engineering Manager / Team Lead (DevOps) roles:**
+> DevOps leader with 14+ years of hands-on platform engineering experience and a consistent track record of upskilling teams: introduced security scanning into the CI/CD pipeline and trained 10+ developers on the new process, and has been promoted three times in 11 years at Amdocs (DevOps Engineer to Specialist to Software Technical Expert). Combines deep technical credibility in Kubernetes, GitOps, and cloud infrastructure with a deliberate, data-driven approach to decision-making and team process improvement.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

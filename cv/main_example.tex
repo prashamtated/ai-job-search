@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Prasham Tated
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -33,7 +33,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Prasham Tated - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -41,15 +41,16 @@
 }}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
+\name{Prasham}{Tated}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\address{Omonoias 63, Limassol, Cyprus 3052}{}{}
+\phone[mobile]{+357 95910171}
+\email{prashamtated@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/prashamtated}{LinkedIn}, \href{https://www.prasham.com}{Portfolio}}
 
 \begin{document}
 
@@ -60,7 +61,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{DevOps/Platform Engineering expert with 14+ years building and running cloud infrastructure, the last several years focused on Kubernetes-native platforms and GitOps. Currently a Software Technical Expert at Amdocs' R\&D organization, architecting CI/CD and container platforms across AWS, OpenShift, and hybrid on-prem/cloud environments. Led the design and rollout of a GitOps-based Kubernetes platform that helped Amdocs win a new client and added \$1M in revenue. CKA and CKAD certified, with hands-on depth in Terraform, ArgoCD, security scanning, and large-scale CI/CD pipeline design.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -70,15 +71,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Kubernetes \& Containers}: Kubernetes, OpenShift, Docker, Helm, ArgoCD, Argo Workflows, GitOps
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Cloud Platforms}: AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM), Azure, Azure AI Foundry
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{CI/CD \& Automation}: Jenkins, AWS CodePipeline, Terraform, Ansible, Bash, Python, Git
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Security \& Networking}: SonarQube, Twistlock (Prisma Cloud), IAM, VPC Peering, Load Balancers, VPN Gateways, DNS
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Data, Messaging \& Observability}: Kafka, Elasticsearch, Couchbase, Prometheus, Grafana
 
 \end{itemize}
 
@@ -91,31 +92,59 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jun 2024-Present}{Software Technical Expert (DevOps Expert)}{Amdocs}{Limassol, Cyprus}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item {Built CI/CD pipelines on AWS CodePipeline and Jenkins that cut release cycle time by 75\% and deployment errors by 40\% across on-prem and cloud environments.}
+    \item {Unified infrastructure management with Terraform across on-prem and AWS, improving provisioning speed 4x and cutting infrastructure-related errors by 30\%.}
+    \item {Led a containerization push with Docker and Kubernetes, moving 90\% of legacy applications into containers - boosted scalability by 50\% and cut infrastructure footprint by 35\%.}
+    \item {Introduced security scanning into the CI/CD pipeline, reducing vulnerabilities by 35\%, and trained 10+ developers on the new process.}
+    \item {Built AWS/on-prem cost estimation models that enabled 20-35\% savings through resource optimization and reserved instance planning.}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2021-Jun 2024}{DevOps Specialist}{Amdocs}{Limassol, Cyprus}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item {Architected a CI/CD pipeline on Kubernetes and OpenShift that cut build times by 60\% and sped up deployments across environments for the business unit.}
+    \item {Integrated automated testing into CI/CD pipelines, helping developers pinpoint and fix the top three causes of integration failures.}
+    \item {Led cloud migration initiatives - assessed legacy infrastructure and delivered AWS migration plans that cut operational overhead by 40\% and improved scalability.}
+    \item {Delivered cloud implementation projects aligned to customer requirements, improving deployment speed and system reliability by 25\%.}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{May 2018-Feb 2021}{DevOps Engineer}{Amdocs}{Limassol, Cyprus}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
+    \item {Worked across AWS services (EC2, S3, VPC, IAM, PaaS) for faster provisioning and secure deployments.}
+    \item {Automated infrastructure provisioning with Bash, Terraform, and Ansible, cutting manual tasks by 50\%.}
+    \item {Managed containerized applications on Docker, Kubernetes, and Helm, improving microservices scalability and cutting deployment time by 40\%.}
+    \item {Designed secure AWS networking (VPNs, VPC peering, load balancers), improving network throughput and security posture by 30\%.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\needspace{5\baselineskip}
+\item{\cventry{May 2013-May 2018}{Technology Integration Engineer}{Amdocs India}{Pune Area, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Automated daily infrastructure activities with custom shell scripts, enhancing efficiency and reducing manual intervention.}
+    \item {Managed the configuration of Weblogic application servers, ensuring optimal performance and reliability across multiple environments.}
+    \item {Provided production support, leveraging expertise in UNIX and Linux to maintain high system availability.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\needspace{5\baselineskip}
+\item{\cventry{Mar 2012-Apr 2013}{Mobile Application Developer}{Nanostuffs Tech. Pvt Ltd}{Pune Area, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Designed and developed 5+ Android applications, streamlining navigation and functionality and increasing user engagement by 30\%.}
+    \item {Provided end-to-end support for application deployment and maintenance with zero downtime.}
 \end{itemize}}}
 
 \end{itemize}
@@ -128,15 +157,7 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2007-2011}{Bachelor of Engineering in Information Technology}{Amravati University (SGBAU)}{Maharashtra, India}{}{}}
 
 \end{itemize}
 
@@ -147,17 +168,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
+\item {Hindi (native or bilingual), English (full professional).}
 \end{itemize}
 
 % ============================================================
@@ -167,7 +178,22 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Transform Collaborate Partner Award} -- Amdocs -- led a Kubernetes-native, GitOps-based platform project that helped Amdocs win a new client and add \$1M in revenue.}
+\item{\textbf{Promoted three times in 11 years at Amdocs} (DevOps Engineer \(\to\) Specialist \(\to\) Software Technical Expert).}
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item{Certified Kubernetes Administrator (CKA)}
+\item{Certified Kubernetes Application Developer (CKAD)}
+\item{AWS Cloud Practitioner Essentials (Second Edition)}
+\item{Certified Professional -- DevOps Foundation (CP-DOF)}
+\item{Microsoft Applied Skills: Create an AI agent}
 \end{itemize}
 
 % ============================================================
