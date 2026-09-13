@@ -13,7 +13,7 @@ framework_version: 1.1.1
 - **Phone:** +357 95910171 (primary), +91 9890492331 (India)
 - **Email:** prashamtated@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/prashamtated
-- **GitHub:** [YOUR_GITHUB_URL]
+- **GitHub:** https://github.com/prashamtated
 - **Portfolio:** https://www.prasham.com
 - **Status:** Employed at Amdocs (Limassol, Cyprus), actively looking to move
 - **Constraints:** Open to relocation. Target locations: Pune (India), Hyderabad (India), Dubai (UAE), Abu Dhabi (UAE). Indian national - no work-permit barrier for India-based roles; UAE roles require employer work-permit sponsorship.
@@ -39,33 +39,35 @@ a hard no, not a gap to smooth over. -->
 
 ### Software Technical Expert (DevOps Expert) - Amdocs (Amdocs Research and Development Team) (Jun 2024 - Present)
 Limassol, Cyprus
-- Built CI/CD pipelines on AWS CodePipeline and Jenkins that cut release cycle time by 75% and deployment errors by 40% across on-prem and cloud environments.
-- Unified infrastructure management with Terraform across on-prem and AWS, improving provisioning speed 4x and cutting infrastructure-related errors by 30%.
-- Led a containerization push with Docker and Kubernetes, moving 90% of legacy applications into containers - boosted scalability by 50% and cut infrastructure footprint by 35%.
-- Introduced security scanning into the CI/CD pipeline, reducing vulnerabilities by 35%, and trained 10+ developers on the new process.
-- Built AWS/on-prem cost estimation models that enabled 20-35% savings through resource optimization and reserved instance planning.
+- Built CI/CD pipelines on AWS CodePipeline and Jenkins across 50+ environments, cutting release cycle time by 75% and deployment errors by 40%.
+- Unified infrastructure management with Terraform across on-prem and AWS, improving provisioning speed 4x (cutting provisioning lead time from 5 days to 4 hours via shared modules) and cutting infrastructure-related errors by 30%.
+- Led a containerization push with Docker and Kubernetes, moving 90% of legacy applications into containers with no downtime window used - boosted scalability by 50% and cut infrastructure footprint by 35%.
+- Introduced security scanning into the CI/CD pipeline, reducing vulnerabilities by 35%, and trained 10+ developers on the new process, including on-call runbooks.
+- Built AWS/on-prem cost estimation models that enabled 20-35% savings (roughly $500K/year) through resource optimization, reserved instances, right-sizing, and auto-scaling.
 
 ### DevOps Specialist - Amdocs (Amdocs Research and Development Team) (Feb 2021 - Jun 2024)
 Limassol, Cyprus
-- Architected a CI/CD pipeline on Kubernetes and OpenShift that cut build times by 60% and sped up deployments across environments for the business unit.
-- Integrated automated testing into CI/CD pipelines, helping developers pinpoint and fix the top three causes of integration failures.
-- Led cloud migration initiatives - assessed legacy infrastructure and delivered AWS migration plans that cut operational overhead by 40% and improved scalability.
+- Architected a CI/CD pipeline on Kubernetes and OpenShift with Helm charts and GitOps workflows, giving 20+ application teams self-service delivery and cutting build times by 60%.
+- Integrated automated testing into CI/CD pipelines, cutting failed deployments by 45% and helping developers pinpoint and fix the top three causes of integration failures.
+- Led cloud migration initiatives - replatformed 50+ telecom billing microservices with staged cutovers and rollback playbooks, cutting operational overhead by 40% while holding 99.9% uptime and 3x scalability.
+- Built Kafka pipelines wired into Prometheus, Grafana, and ELK, making event data traceable across 5M+ daily messages for audit reviews.
 - Delivered cloud implementation projects aligned to customer requirements, improving deployment speed and system reliability by 25%.
 
 ### DevOps Engineer - Amdocs (Amdocs R&D Team) (May 2018 - Feb 2021)
 Limassol, Cyprus
-- Worked across AWS services (EC2, S3, VPC, IAM, PaaS) for faster provisioning and secure deployments.
-- Automated infrastructure provisioning with Bash, Terraform, and Ansible, cutting manual tasks by 50%.
-- Managed containerized applications on Docker, Kubernetes, and Helm, improving microservices scalability and cutting deployment time by 40%.
+- Managed containerized applications on Docker, Kubernetes, and Helm across 30+ applications, achieving 3x peak-traffic capacity, improving microservices scalability, and cutting deployment time by 40%.
+- Automated infrastructure provisioning with Bash, Terraform, and Ansible, cutting manual tasks by 50% and compressing release cycles from 3 weeks to 2 days across 15+ Jenkins pipelines.
 - Automated Linux server maintenance with shell scripting, improving system performance and cutting manual intervention by 60%.
-- Designed secure AWS networking (VPNs, VPC peering, load balancers), improving network throughput and security posture by 30%.
+- Designed secure AWS networking (VPNs, VPC peering, load balancers, ALB, WAF), improving network throughput and security posture by 30% with zero security incidents.
+- Worked across AWS services (EC2, S3, VPC, IAM, PaaS) for faster provisioning and secure deployments.
 
 ### Technology Integration Engineer - Amdocs India (May 2013 - May 2018)
 Pune Area, India
-<!-- Bullets sourced from LinkedIn - the CV lists no bullets for this role -->
-- Automated daily infrastructure activities with custom shell scripts, enhancing efficiency and reducing manual intervention.
+<!-- Bullets sourced from LinkedIn and the India-targeted resume draft - the master CV lists no bullets for this role -->
+- Automated daily infrastructure activities with custom shell scripts and Ansible, keeping billing platforms for 10M+ subscribers stable at 99.95% uptime across 100+ RHEL/CentOS servers.
 - Managed the configuration of Weblogic application servers, ensuring optimal performance and reliability across multiple environments.
 - Provided production support, leveraging expertise in UNIX and Linux to maintain high system availability.
+- Improved US-India delivery quality through root-cause analysis with onshore teams, cutting recurring incidents by 35%.
 
 ### Mobile Application Developer - Nanostuffs Tech. Pvt Ltd (Mar 2012 - Apr 2013)
 Pune Area, India
@@ -84,26 +86,36 @@ Pune Area, India
 ## Technical Skills
 
 ### Cloud Platforms
-- AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM)
+- AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM, Transit Gateway, Cost Explorer)
 - Azure, Azure AI Foundry
+- FinOps
 
 ### Kubernetes & Containers
-- Kubernetes, OpenShift, Docker, Helm, ArgoCD, Argo Workflows
+- Kubernetes, OpenShift, Docker, Helm, ArgoCD, Argo Workflows, Istio, microservices
 
 ### CI/CD & Automation
-- Jenkins, AWS CodePipeline, Terraform, Ansible, Bash, Python, Git
+- Jenkins, AWS CodePipeline, GitHub Actions, GitLab CI, Terraform, CloudFormation, Ansible, Bash, Python, Git, Bitbucket, blue-green and canary releases
 
 ### Security
-- SonarQube, Twistlock (Prisma Cloud) vulnerability scanning, IAM, Security Groups, NACLs/Firewalls
+- SonarQube, Twistlock (Prisma Cloud) vulnerability scanning, Trivy, SAST/DAST, HashiCorp Vault, AWS Secrets Manager, OPA/Gatekeeper, RBAC, DevSecOps, IAM, Security Groups, NACLs/Firewalls
 
 ### Networking
-- VPC Peering, Application Gateways, Load Balancers, Network Load Balancing, VPN Gateways, DNS, Subnetting, Routing
+- VPC Peering, Application Gateways, Load Balancers (ALB/NLB), Network Load Balancing, VPN Gateways, WAF, DNS, Subnetting, Routing
 
 ### Data & Messaging
-- Kafka, Elasticsearch, Couchbase
+- Kafka, Elasticsearch, Kibana, Redis, Couchbase
 
 ### Observability
-- Prometheus, Grafana
+- Prometheus, Grafana, OpenTelemetry, FluentBit, PagerDuty, SLI/SLO, incident management, on-call, RCA
+
+### AI-Assisted Development Tooling
+- Cursor, MS 365 Copilot, kagent (AI-assisted platform work)
+
+### Process
+- Agile, Scrum, ITIL
+
+### Linux & OS
+- RHEL, CentOS, Ubuntu
 
 ### Programming Languages
 - Java, Python, Bash

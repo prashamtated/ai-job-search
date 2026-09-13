@@ -48,6 +48,42 @@ Situation and Task need your own detail filled in before relying on them in an i
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+<!-- Added by /setup Path A from documents/cv/Prasham_Tated_Master_Resume_India.pdf - Action and
+Result are backed by that document, but Situation and Task need your own detail before relying on
+these in an interview. -->
+
+### Cloud cost optimization program (FinOps, cost savings)
+**Source:** CV draft (India résumé) - Software Technical Expert role, Amdocs
+**What happened:** Built AWS/on-prem cost estimation models and used reserved instances, right-sizing, and auto-scaling to cut cloud spend by roughly $500K/year (20-35% workload cost reduction).
+**Why it matters:** Answers "Tell me about a time you drove cost savings", "How do you approach FinOps/cloud cost management?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Large-scale telecom microservices migration with zero-downtime cutover
+**Source:** CV draft (India résumé) - DevOps Specialist role, Amdocs
+**What happened:** Replatformed 50+ telecom billing microservices to AWS with staged cutovers and rollback playbooks, holding 99.9% uptime and 3x scalability throughout a long-running migration.
+**Why it matters:** Answers "Tell me about a high-stakes migration", "How do you manage risk during a cutover?", "Describe a time reliability was on the line."
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Kafka-based observability pipeline for audit traceability
+**Source:** CV draft (India résumé) - DevOps Specialist role, Amdocs
+**What happened:** Built Kafka pipelines wired into Prometheus, Grafana, and ELK to make event data traceable across 5M+ daily messages for audit reviews.
+**Why it matters:** Answers "Describe your observability/monitoring experience", "Tell me about a compliance or audit-driven technical project."
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

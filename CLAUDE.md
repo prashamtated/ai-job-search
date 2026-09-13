@@ -4,7 +4,7 @@
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Prasham Tated, helping with:
 1. **Job fit evaluation** - Assess job postings against Prasham's profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -40,30 +40,33 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Professional Experience
 <!-- List your roles, most recent first -->
 - **Software Technical Expert (DevOps Expert)** (Jun 2024 - Present) - **Amdocs** (Amdocs Research and Development Team, Limassol, Cyprus)
-  - Built CI/CD pipelines on AWS CodePipeline and Jenkins, cutting release cycle time by 75% and deployment errors by 40%
-  - Unified infrastructure management with Terraform across on-prem and AWS, improving provisioning speed 4x
+  - Built CI/CD pipelines on AWS CodePipeline and Jenkins across 50+ environments, cutting release cycle time by 75% and deployment errors by 40%
+  - Unified infrastructure management with Terraform across on-prem and AWS, improving provisioning speed 4x (cutting provisioning lead time from 5 days to 4 hours via shared modules)
   - Led design/rollout of a GitOps-based Kubernetes platform that helped Amdocs win a new client and added $1M in revenue
+  - Built AWS/on-prem cost estimation models that enabled 20-35% savings (roughly $500K/year) through resource optimization, reserved instances, right-sizing, and auto-scaling
 - **DevOps Specialist** (Feb 2021 - Jun 2024) - **Amdocs** (Amdocs Research and Development Team, Limassol, Cyprus)
-  - Architected a CI/CD pipeline on Kubernetes and OpenShift that cut build times by 60%
-  - Led cloud migration initiatives that cut operational overhead by 40% and improved scalability
-  - Integrated automated testing into CI/CD pipelines, fixing the top three causes of integration failures
+  - Architected a CI/CD pipeline on Kubernetes and OpenShift with Helm charts and GitOps workflows, giving 20+ application teams self-service delivery and cutting build times by 60%
+  - Led cloud migration initiatives - replatformed 50+ telecom billing microservices with staged cutovers and rollback playbooks, cutting operational overhead by 40% while holding 99.9% uptime and 3x scalability
+  - Integrated automated testing into CI/CD pipelines, cutting failed deployments by 45% and fixing the top three causes of integration failures
+  - Built Kafka pipelines wired into Prometheus, Grafana, and ELK, making event data traceable across 5M+ daily messages for audit reviews
 - **DevOps Engineer** (May 2018 - Feb 2021) - **Amdocs** (Amdocs R&D Team, Limassol, Cyprus)
-  - Automated infrastructure provisioning with Bash, Terraform, and Ansible, cutting manual tasks by 50%
-  - Managed containerized applications on Docker, Kubernetes, and Helm, cutting deployment time by 40%
-  - Designed secure AWS networking (VPNs, VPC peering, load balancers), improving security posture by 30%
+  - Managed containerized applications on Docker, Kubernetes, and Helm across 30+ applications, achieving 3x peak-traffic capacity and cutting deployment time by 40%
+  - Automated infrastructure provisioning with Bash, Terraform, and Ansible, cutting manual tasks by 50% and compressing release cycles from 3 weeks to 2 days across 15+ Jenkins pipelines
+  - Designed secure AWS networking (VPNs, VPC peering, load balancers, ALB, WAF), improving security posture by 30% with zero security incidents
 - **Technology Integration Engineer** (May 2013 - May 2018) - **Amdocs India** (Pune Area, India)
-  - Automated daily infrastructure activities with custom shell scripts
+  - Automated daily infrastructure activities with custom shell scripts and Ansible, keeping billing platforms for 10M+ subscribers stable at 99.95% uptime across 100+ RHEL/CentOS servers
   - Managed Weblogic application server configuration across multiple environments
-  - Provided production support leveraging UNIX/Linux expertise
+  - Provided production support leveraging UNIX/Linux expertise; cut recurring incidents by 35% through root-cause analysis with onshore teams
 - **Mobile Application Developer** (Mar 2012 - Apr 2013) - **Nanostuffs Tech. Pvt Ltd** (Pune Area, India)
   - Designed and developed 5+ Android applications, increasing user engagement by 30%
   - Provided end-to-end deployment and maintenance support with zero downtime
 
 ### Technical Skills
-- **Primary:** Kubernetes, OpenShift, Docker, Helm, ArgoCD, Argo Workflows, GitOps, Terraform, Ansible, Jenkins, AWS CodePipeline, AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM)
-- **Secondary:** Azure, Azure AI Foundry, security scanning (SonarQube, Twistlock/Prisma Cloud), Kafka, Elasticsearch, Couchbase, Prometheus, Grafana, networking (VPC peering, load balancers, VPN gateways, Network Load Balancing, DNS)
-- **Domain:** DevOps/Platform Engineering, CI/CD pipeline design, cloud migration, infrastructure automation
-- **Software:** Java, Python, Bash, Git
+- **Primary:** Kubernetes, OpenShift, Docker, Helm, ArgoCD, Argo Workflows, Istio, GitOps, Terraform, CloudFormation, Ansible, Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, AWS (EC2, S3, RDS, EKS, Lambda, API Gateway, CloudWatch, IAM, Transit Gateway, Cost Explorer)
+- **Secondary:** Azure, Azure AI Foundry, FinOps, security scanning (SonarQube, Twistlock/Prisma Cloud, Trivy, SAST/DAST), HashiCorp Vault, AWS Secrets Manager, OPA/Gatekeeper, RBAC, DevSecOps, Kafka, Elasticsearch, Kibana, Redis, Couchbase, Prometheus, Grafana, OpenTelemetry, FluentBit, PagerDuty, SLI/SLO, networking (VPC peering, load balancers (ALB/NLB), VPN gateways, WAF, Network Load Balancing, DNS)
+- **Domain:** DevOps/Platform Engineering, CI/CD pipeline design, cloud migration, infrastructure automation, incident management/RCA, Agile/Scrum/ITIL
+- **Software:** Java, Python, Bash, Git, Bitbucket
+- **AI-Assisted Development Tooling:** Cursor, MS 365 Copilot, kagent
 
 ### Certifications
 <!-- List relevant certifications with dates -->
