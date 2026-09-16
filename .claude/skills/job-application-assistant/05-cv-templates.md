@@ -4,6 +4,21 @@ framework_version: 1.4.3
 
 # CV Templates and Tailoring Guide
 
+<!-- BEGIN ACTIVE-TEMPLATE (managed by /add-template - do not edit by hand) -->
+> **Active template override: `fpdf-json-ats`**
+>
+> A custom template is active. Where this block conflicts with the stock guidance below, this block wins. Structural advice below (tailoring, page-budget, cutting rules) still applies.
+>
+> - **Template skeleton:** two location-specific starters, not one — `templates/cv/fpdf-json-ats/template_dubai.json` and `templates/cv/fpdf-json-ats/template_india.json`. Pick the one matching the target role's location (per CLAUDE.md's Target Sectors); Cyprus roles use the Dubai/GCC variant's schema shape.
+> - **Manifest:** `templates/cv/fpdf-json-ats/TEMPLATE.md` — read this for style rules and known pitfalls before drafting. Also read `templates/cv/fpdf-json-ats/RESUME_DATA_SCHEMA.md` (schema) and the matching `DUBAI_PROMPT_latest.md`/`INDIA_PROMPT_latest.md` (drafting/tailoring instructions) before writing content.
+> - **Source extension:** `.json` (not `.tex` — this is a Python/fpdf2 renderer, not LaTeX)
+> - **Compile command:** `cd /Users/prashamt/Resume && source .venv/bin/activate && python generate_resume.py --data <absolute-path>.json --output <absolute-path>.pdf` — **paths must be absolute** (see manifest's Known pitfalls; relative paths resolve against the external generator's own repo, not this one)
+> - **Fonts:** Helvetica (PDF core font, no bundling needed)
+> - **Page limit:** exactly 2 page(s) — the script itself hard-fails past 2 pages rather than overflowing
+> - **Output file:** `cv/main_<company>_<role>.json`; the compile command writes `cv/main_<company>_<role>.pdf` alongside it. No files need copying into the output directory — the generator and its `.venv` stay in their own repo and are invoked by absolute path.
+> - **Factual accuracy warning:** the two starter JSON files' own content does not fully match CLAUDE.md's canonical profile (years of experience, cost-savings figures, some skills, personal details) — treat them as structure/tone references only; verify every fact drafted from them against CLAUDE.md as usual.
+<!-- END ACTIVE-TEMPLATE -->
+
 <!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
 
 ## Template: LaTeX moderncv (Banking Style)

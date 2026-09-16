@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "company_slug": "default",
+    "company": "",
+    "position": "Cloud DevOps Leader",
+    "location_key": "dubai",
+    "output_dir": ".",
+    "output_filename": "Prasham_Tated_Dubai_Resume.pdf"
+  },
+  "header": {
+    "name": "PRASHAM TATED",
+    "title": "CLOUD & DEVOPS LEADER  |  PLATFORM ARCHITECT  |  SRE",
+    "email": "prashamtated@gmail.com",
+    "linkedin": ["linkedin.com/in/prashamtated", "https://www.linkedin.com/in/prashamtated"],
+    "github": ["github.com/prashamtated", "https://github.com/prashamtated"],
+    "portfolio": ["https://prasham.com", "https://prasham.com"]
+  },
+  "location": {
+    "phone": "+357 95910171",
+    "current_location": "Limassol, Cyprus",
+    "target_location": "Dubai, UAE",
+    "relocation_line": "Available for Immediate UAE Relocation",
+    "availability": "Immediate to 30 days | Open to travel across GCC, EMEA, and APAC",
+    "authorization": "Indian National | EU Blue Card Holder (Cyprus) | UAE Visa Sponsorship Required",
+    "work_mode": "Onsite, Hybrid, or Remote | Open to Dubai & wider UAE",
+    "global_exposure": "8+ years based in Cyprus (EU) with cross-region Fortune 500 delivery"
+  },
+  "summary": "Cloud and DevOps transformation leader with 14+ years of progressive, hands-on experience spanning Platform Engineering, Site Reliability Engineering (SRE), Cloud Architecture, and enterprise CI/CD delivery across Europe and India. Deep technical authority in AWS, Kubernetes, OpenShift, Terraform, Ansible, ArgoCD, GitOps, and GenAI-driven DevOps for a Fortune-listed global software leader. Consistently delivered 99.9% uptime, 75% faster release cycles, 40% lower MTTR, $500K+ annual savings, and $1M+ client revenue through architecture ownership and technical leadership. CKA, CKAD, AWS, and DevOps Institute certified; 3x promoted; award-winning technical leader.",
+  "key_metrics": [
+    "75% Faster Releases",
+    "99.9% Uptime",
+    "40% MTTR Reduction",
+    "4x Provisioning",
+    "$500K+ Savings",
+    "$1M+ Revenue"
+  ],
+  "skills": [
+    {
+      "label": "Cloud Platforms",
+      "text": "AWS (EC2, EKS, ECS, S3, RDS, VPC, IAM, Lambda, CloudWatch, Transit Gateway, WAF), Microsoft Azure, GCP fundamentals, hybrid and private cloud"
+    },
+    {
+      "label": "Containers & Orchestration",
+      "text": "Kubernetes, Red Hat OpenShift, Amazon EKS, Docker, Podman, Helm, service mesh, microservices architecture, platform engineering"
+    },
+    {
+      "label": "CI/CD & GitOps",
+      "text": "Jenkins, ArgoCD, Argo Workflows, GitHub Actions, GitLab CI, AWS CodePipeline, Spinnaker, Crossplane, blue-green and canary deployments"
+    },
+    {
+      "label": "Infrastructure as Code",
+      "text": "Terraform, Ansible (Red Hat AAP), CloudFormation, Pulumi, Python, Bash, reusable modules, configuration management, drift remediation"
+    },
+    {
+      "label": "SRE & Observability",
+      "text": "Prometheus, Grafana, ELK Stack, Datadog, CloudWatch, PagerDuty, SLI/SLO/SLA, incident management, on-call operations, post-incident reviews"
+    },
+    {
+      "label": "Security & Compliance",
+      "text": "SonarQube, Twistlock, Trivy, SAST/DAST, IAM, RBAC, Policy as Code, DNS, SSL/TLS, TCP/IP, VPN, VPC peering, ALB, WAF"
+    },
+    {
+      "label": "AI & Autonomous DevOps",
+      "text": "GenAI-integrated CI/CD agents, AI-driven test optimization, predictive deployment analytics, ChatOps, AI-assisted code review"
+    },
+    {
+      "label": "Leadership & Delivery",
+      "text": "Solution architecture, technical design reviews, cloud transformation, Agile/Scrum, stakeholder management, FinOps, mentoring"
+    }
+  ],
+  "certifications": "CKA - Certified Kubernetes Administrator (CNCF)  |  CKAD - Certified Kubernetes Application Developer (CNCF)  |  AWS Certified Cloud Practitioner  |  CP-DOF - Certified Professional DevOps Foundation (DevOps Institute)",
+  "experience": [
+    {
+      "title": "Software Technical Expert | CI/CD & Platform Engineering Lead",
+      "dates": "Jun 2024 - Present",
+      "company": "Amdocs Ltd",
+      "location": "Limassol, Cyprus",
+      "bullets": [
+        "Defined enterprise CI/CD technical direction by architecting autonomous DevOps blueprint with GenAI-augmented delivery workflows across 50+ environments; accelerated release cycles by 75% and enabled weekly production releases.",
+        "Architected end-to-end GitOps platform (ArgoCD, Jenkins, Crossplane, AWS CodePipeline) from design through production rollout; eliminated 40% of deployment errors and contributed to $1M+ in new-client revenue.",
+        "Engineered unified Terraform + Ansible IaC platform across hybrid cloud, cutting provisioning from 5 days to 4 hours and infrastructure incidents by 30%.",
+        "Led container modernization migrating 90% of legacy apps to Kubernetes/OpenShift with zero downtime; delivered 50% scalability gain and $150K annual savings.",
+        "Embedded DevSecOps and SLO-based alerting into platform; reduced security findings by 35%, lowered MTTR 40%, prevented 200+ incidents, mentored 10+ engineers."
+      ]
+    },
+    {
+      "title": "DevOps Specialist | Platform Engineer",
+      "dates": "Feb 2021 - Jun 2024",
+      "company": "Amdocs Ltd",
+      "location": "Limassol, Cyprus",
+      "bullets": [
+        "Pioneered Kubernetes-native OpenShift delivery platform with standardized Helm charts and GitOps workflows for 20+ application teams; cut build times 60% and deployment errors 65%. Earned 'Transform Collaborate Partner' award.",
+        "Led phased AWS cloud migration for 50+ telecom billing microservices with rollback playbooks; achieved 40% lower operational overhead, 3x scalability, 99.9% uptime.",
+        "Built Apache Kafka event-driven pipelines processing 5M+ messages daily and implemented full observability stack (Prometheus, Grafana, ELK) for audit readiness.",
+        "Engineered automated testing framework with analytics dashboards and AI-driven test optimization; slashed failed deployments 45% and deployment bottlenecks 70%."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "dates": "May 2018 - Feb 2021",
+      "company": "Amdocs Ltd",
+      "location": "Limassol, Cyprus",
+      "bullets": [
+        "Containerized 30+ monolithic applications to Docker/Kubernetes; improved resource utilization 40% and enabled 3x peak-traffic handling.",
+        "Built Jenkins CI/CD pipelines for 15+ projects with end-to-end testing; compressed release cycles from 3 weeks to 2 days (10x deployment frequency).",
+        "Streamlined AWS provisioning with Terraform + Ansible and architected secure networking (VPC, VPN, ALB, WAF, Transit Gateway); sustained 99.9% availability."
+      ]
+    },
+    {
+      "title": "Technology Integration Engineer",
+      "dates": "May 2013 - May 2018",
+      "company": "Amdocs LLP",
+      "location": "Pune, India",
+      "bullets": [
+        "Managed 100+ Linux production servers (RHEL/CentOS) for 10M+ subscribers; sustained 99.95% availability through Ansible automation and continuous monitoring.",
+        "Led technical coordination between US and India teams; cut recurring incidents 35% and achieved 95% stakeholder satisfaction via root-cause analysis."
+      ]
+    },
+    {
+      "title": "Mobile Application Developer",
+      "dates": "Mar 2012 - Apr 2013",
+      "company": "NanoStuffs Technologies Pvt. Ltd.",
+      "location": "Pune, India",
+      "bullets": [
+        "Designed and shipped 5+ Android applications using Java across the full SDLC, building the software engineering foundation applied to CI/CD and platform automation."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Transform Collaborate Partner Award (Amdocs, 2024)",
+      "description": "Led OpenShift/GitOps architecture that secured new enterprise client and $1M+ revenue."
+    },
+    {
+      "title": "3x Internal Promotions (Amdocs, 2013-2024)",
+      "description": "Progressed from Integration Engineer to Software Technical Expert through sustained engineering depth, architectural impact, and technical leadership."
+    }
+  ],
+  "impact": [
+    {
+      "area": "Release Engineering",
+      "outcome": "75% faster release cycles; 40% fewer failures; weekly production releases"
+    },
+    {
+      "area": "Reliability & SRE",
+      "outcome": "99.9% uptime; 40% MTTR reduction; 200+ incidents prevented"
+    },
+    {
+      "area": "Container Modernization",
+      "outcome": "90% legacy apps migrated to K8s/OpenShift; zero downtime; $150K savings"
+    },
+    {
+      "area": "Platform Engineering",
+      "outcome": "20+ teams on self-service GitOps; 65% fewer deployment errors"
+    },
+    {
+      "area": "Infrastructure as Code",
+      "outcome": "5 days to 4 hours provisioning; 60% less manual work; drift-free delivery"
+    },
+    {
+      "area": "Cloud Economics",
+      "outcome": "20-35% cost reduction across workloads; $500K+ annual savings"
+    },
+    {
+      "area": "Revenue Impact",
+      "outcome": "GitOps platform delivery supported $1M+ new enterprise client acquisition"
+    }
+  ],
+  "education": "Bachelor of Engineering in Information Technology  |  Sant Gadge Baba Amravati University (SGBAU), Maharashtra, India  |  2011",
+  "additional": [
+    {
+      "label": "Relocation",
+      "text": "Onsite, Hybrid, or Remote | Open to Dubai & wider UAE | Marital Status: Married"
+    },
+    {
+      "label": "Regional Travel",
+      "text": "Open to travel across GCC, EMEA, and APAC | Driving license available"
+    },
+    {
+      "label": "Languages",
+      "text": "English (business fluent), Hindi (native), Marathi (native)"
+    },
+    {
+      "label": "Global Exposure",
+      "text": "8+ years based in Cyprus (EU) with cross-region Fortune 500 delivery"
+    }
+  ],
+  "projects": []
+}
